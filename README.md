@@ -23,6 +23,7 @@ C'est ce qui est illustré dans la présente démo.  Nos deux classes comparable
 construire avec une valeur littérale entière, par-exemple:
 
 `comparableM unObjet(4);
+
 comparableF autreObjet(123);`
 
 Il est donc possible, en définissant l'opérateur ==,  de bâtir des expressions comme:
@@ -32,6 +33,7 @@ Il est donc possible, en définissant l'opérateur ==,  de bâtir des expression
 Mais intuitivement on voudrait aussi pouvoir utiliser des expressions du type:
 
 `unObjet == 4 ;
+
 56 == autreObjet ;`
 
 La deuxième possibilité est malheureusement impossible lorsque l'opérateur == est un membre de la classe.  On peut toutefois bâtir ce type d'expression
