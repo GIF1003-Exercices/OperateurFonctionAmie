@@ -8,8 +8,10 @@ Dans ce projet on illustre un avantage d'utiliser une fonction amie lorsque l'op
 construit par conversion implicite.
 Dans l'expression suivante:
 
-`int a ;
-double x = a + 1.5 ;`
+```C++
+int a ;
+double x = a + 1.5 ;
+```
 
 La variable a est convertie implicitement en double lorsque l'expresion est évaluée.  De même, la comparaison suivante:
 
