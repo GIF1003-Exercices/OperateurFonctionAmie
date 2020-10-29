@@ -40,10 +40,10 @@ unObjet == autreObjet ;
 Mais intuitivement on voudrait aussi pouvoir utiliser des expressions du type:
 
 ```C++
-unObjet == 4 ;
-56 == autreObjet ;
+unObjet == 4 ; // Possible avec les deux versions
+56 == autreObjet ; // Possible SEULEMENT avec la version amie
 ```
-
+La première possibilité est accessible à nos deux versions de l'opérateur ==, membre ou amie.
 La deuxième possibilité est malheureusement impossible lorsque l'opérateur == est un membre de la classe.  On peut toutefois bâtir ce type d'expression
 lorsque l'opérateur est défini comme fonction amie.
 
