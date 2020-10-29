@@ -27,12 +27,12 @@ comparableF autreObjet(123);
 
 Il est donc possible, en définissant l'opérateur ==,  de bâtir des expressions comme:
 
-unObjet == autreObjet
+unObjet == autreObjet ;
 
 Mais intuitivement on voudrait aussi pouvoir utiliser des expressions du type:
 
-unObjet == 4
-56 == autreObjet
+unObjet == 4 ;\n
+56 == autreObjet ;\n
 
 La deuxième possibilité est malheureusement impossible lorsque l'opérateur == est un membre de la classe.  On peut toutefois bâtir ce type d'expression
 lorsque l'opérateur est défini comme fonction amie.
